@@ -1,0 +1,16 @@
+{
+  "name": "lyrics-api-endpoint",
+  "version": "1.0.0",
+  "description": "This is lyrics API using Express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clement HAKIZIMANA",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  }
+}
