@@ -5,7 +5,11 @@ Welcome to the Lyrics API Endpoint, a Node.js and MongoDB-powered solution desig
 ## Table of Contents
 
 - [Installation](#installation)
+- [Overview](#overview)
   - [Links](#links)
+  - [usage](#usage)
+- [Endpoint Overview](#endpoint-overview)
+  - [How To Use](#how-to-use)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Design Pattern](#design-pattern)
@@ -66,6 +70,37 @@ The Lyrics API Endpoint empowers users to explore lyrics for songs they desire. 
 - GitHub Repository URL: https://github.com/Hakizimana-Clement/lyrics-restful-api-endpoint
 
 - Live API URL: https://lyrics-api-7mrm.onrender.com/api/lyrics
+
+### Usage
+
+## Endpoint Overview
+
+The Lyrics API Endpoint provides several endpoints to interact with the lyric data. Here's a brief overview:
+
+- **GET /lyrics:** Retrieve a list of all available lyrics.
+- **GET /lyrics/:id:** Retrieve the lyrics for a specific song by providing the unique identifier.
+- **POST /lyrics:** Add new lyrics to the database.
+- **PUT /lyrics/:id:** Update existing lyrics.
+- **DELETE /lyrics/:id:** Remove lyrics from the database.
+
+### How to Use
+
+1. **Retrieve All Lyrics:**
+   - Make a `GET` request to `/lyrics` to retrieve a list of all available lyrics.
+2. **Retrieve Lyrics:**
+
+   - Make a `GET` request to `/lyrics/:id` with the unique identifier to fetch lyrics for a specific song.
+
+3. **Add New Lyrics:**
+
+   - Make a `POST` request to `/lyrics` with the necessary details. Ensure authentication for user-specific contributions.
+
+4. **Update Lyrics:**
+
+   - Make a `PUT` request to `/lyrics/:id` with the unique identifier and updated information. Authentication is required for user-specific updates.
+
+5. **Delete Lyrics:**
+   - Make a `DELETE` request to `/lyrics/:id` with the unique identifier to remove lyrics from the database. Authentication is required for user-specific deletions.
 
 ## My process
 
